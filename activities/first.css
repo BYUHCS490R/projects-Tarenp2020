@@ -1,0 +1,47 @@
+
+nav{
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+    background-color: rgba(211, 211, 211, 0.374);
+    text-align: center;
+    padding: 1px;
+}
+
+main{
+    background-color: rgba(211, 211, 211, 0.374);
+    padding: 1px;
+}
+
+main strong{
+    color: rgb(1, 1, 204);
+}
+
+main em{
+    color: rgb(2, 146, 124);
+}
+
+main p{
+    color: blue;
+    font-size: 24;
+}
+
+header h1 {
+    color: red;
+    font-size: 48px;
+}
+
+main h1 {
+    color: rgb(0, 203, 218);
+    font-size: 48px;
+}
+
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
