@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    color: rgb(0, 102, 204);
+}
+
+h2 {
+    color: rgb(74, 136, 57);
+    background-color: lightcyan;
+    box-shadow: 2px 2px 5px grey;
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+main {
+    background-color: azure;
+}
+
+.questions {
+    font-size: small;
+    color: darkslategray;  
+    padding: 10px;
+    border: 2px dashed lightgrey;
+    border-radius: 8px;
+}
+
+#one {
+    background-color: lightyellow;
+    font-size: larger;
+    color: coral
+}
+
+#two {
+    background-color: rgb(224, 255, 255);
+    font-size: large;
+    color: rgba(255, 127, 80, 0.708);
+}   
+
+.three {
+    background-color: lightgrey;
+    font-size: medium;
+    color: rgb(255, 140, 0);
+}
+
+.five {
+    color:blueviolet;
+}
+
+.standout {
+    font-weight: bold;
+}

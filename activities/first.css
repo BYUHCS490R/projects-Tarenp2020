@@ -11,6 +11,11 @@ header{
     padding: 1px;
 }
 
+question div {
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
+
 main{
     background-color: rgba(211, 211, 211, 0.374);
     padding: 1px;
