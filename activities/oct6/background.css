@@ -1,0 +1,31 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    color:rgb(244, 244, 244);
+
+    background: url('greenbg2.jpg') repeat green;
+}
+
+header {
+    text-align: center;
+    background: url('mountin2.png') no-repeat top right;
+}
+
+nav {
+    margin: 30px;
+}
+
+main {
+    margin: 10px;
+}
+
+.mylist{
+    list-style-image: url(dot.png);
+}
+
+.other {
+    background-image: url('greenbg.jpg');
+    background-repeat: repeat;
+    background-color: green;
+}
