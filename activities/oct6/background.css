@@ -24,6 +24,14 @@ main {
     list-style-image: url(dot.png);
 }
 
+.question {
+    background-color: rgba(0, 128, 0, 0.299);
+}
+
+.answer {
+    background-color: rgba(0, 128, 0, 0.37);
+}
+
 .other {
     background-image: url('greenbg.jpg');
     background-repeat: repeat;
