@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url('res/tilebg.png') repeat gray;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(83, 53, 18);
+    text-align: center;
+    padding: 1rem 2rem;
+
+}
+
+nav a {
+    color: rgb(181, 125, 62);
+}
+
+main {
+    flex: 1;
+    margin: 20px;
+    padding: 1rem 2rem;
+    background-color: rgba(83, 53, 18, 0.477);
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentHeader {
+    margin-bottom: 0;
+}
+
+h3 {
+    color: rgb(40, 25, 9);
+    margin-top: 0;
+}
+
+ul {
+    background: url('res/homeStop.png') no-repeat right;
+}
+
+.mylist{
+    list-style-image: url(ring.png);
+    font-size: larger;
+}
+
+.current {
+    color:rgba(255, 255, 255, 0.312)
+}
+
+footer {
+    background-color: rgb(83, 53, 18);
+    text-align: center;
+    padding: 2rem;
+
+}
