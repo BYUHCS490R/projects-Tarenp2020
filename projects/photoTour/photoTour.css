@@ -51,7 +51,7 @@ ul {
 }
 
 .mylist{
-    list-style-image: url(ring.png);
+    list-style-image: url('res/ring.png');
     font-size: larger;
 }
 
