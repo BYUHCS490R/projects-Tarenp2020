@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    padding: 0;
+    background-color: rgba(255, 255, 0, 0.282);
+    font-family: 'Lucida Sans';
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(255, 166, 0, 0.393);
+    text-align: center;
+    padding: 1rem, 2rem;
+}
+
+header h1{
+    background-color: orange;
+    padding: 16px, 32px;
+}
+
+nav {
+    background-color: yellow;
+    margin: 1rem;
+    border: 2px, solid, orange;
+}
+
+main {
+    flex: 1;
+    margin: 0.5rem;
+    padding: 1rem, 2rem;
+    background-color: rgba(255, 255, 0, 0.267);
+
+}
+
+.question {
+    color: rgb(233, 152, 1);
+    font-weight: bold;
+}
+
+.answer {
+    color: rgb(157, 157, 2);
+    margin-bottom: 3rem;
+
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.393);
+    font-size: small;
+}
