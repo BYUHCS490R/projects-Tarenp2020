@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: pink;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+#wrapper {
+    background-color: rgba(255, 255, 255, 0.673);
+    margin: auto;
+    width: 800px;
+    
+}
+
+
+
+header {
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 20px;
+}
+
+header h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    
+}
+
+nav {
+    border: thin solid black;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+nav a{
+    display: inline-block;
+    color: rgb(255, 0, 140);
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    background-image: url('tilePink.png');
+    background-origin: padding-box;
+    background-clip: content-box;
+}
+
+main p {
+    padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.acnh{
+    float: right;
+    border: thin solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background:  rgb(255, 0, 140);
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background:  rgb(255, 0, 140);
+
+}
