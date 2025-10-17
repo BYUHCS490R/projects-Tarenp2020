@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(bgtile.png);
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.211);
+}
+
+nav {
+    text-align: center;
+}
+
+nav a{
+    background-color: cadetblue;
+    color:rgb(3, 3, 129);
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.759);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.child {
+    background-color: cadetblue;
+}
+
+.engage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.question {
+    text-align: left;
+    color: red;
+}
+
+.answer {
+    background-color: rgba(255, 0, 0, 0.211);
+    text-align: left;
+
+}
+
+footer {
+    background-color: cadetblue;
+}
+
+/*
+#wrapper {
+    display: grid;
+    grid-template-areas: 
+        "top top top"
+        "lside middle rside"
+        "bottom bottom bottom";
+}
+
+header {
+    grid-area: top
+}
+
+nav {
+    grid-area: lside
+}
+
+main {
+    grid-area: middle;
+}
+
+footer {
+    grid-area: bottom;
+}
+
+*/
