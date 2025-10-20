@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url(tilebg.png);
+    color: rgb(31, 44, 39);
+}
+
+header {
+    text-align: center;
+}
+
+.navRow {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navCard {
+
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+
+    background-color: rgba(130, 181, 161, 0.682);
+    color: rgb(31, 44, 39);
+
+    border: thin solid black;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 6px rgba(50,50,50,0.5);
+    width: 150px;
+
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(31, 44, 39); 
+    color: rgba(130, 181, 161, 0.682);
+}
+
+h1 {
+    background-color: rgba(130, 181, 161, 0.682);
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    /*
+    justify-content: space-evenly
+    flex-direction: row-revers
+    flex-wrap: wrap;
+    */
+}
+
+.card {
+    background-color: rgba(130, 181, 161, 0.682);
+    color: rgb(31, 44, 39);
+
+    border: thin solid black;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 6px rgba(50,50,50,0.5);
+    width: 150px;
+
+    padding: 5px;
+}
+
+
+.mainthing {
+    order: -1;
+}
+
+
+footer {
+    margin: 20px;
+}
