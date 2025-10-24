@@ -46,9 +46,8 @@ main{
 }
 
 aside{
-    display: flex;
-    justify-content: left;
-    flex-flow: row wrap;
+    width: 250px;
+    margin-right: 20px;
 }
 
 aside p {
@@ -84,10 +83,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
-
     padding: 15px;
     background: rgb(255, 112, 2);
-
     text-align: center;
 }
 
