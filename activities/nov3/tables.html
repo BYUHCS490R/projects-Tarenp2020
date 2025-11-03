@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+
+<body>
+    <header>
+        <h2>Taren's Webpage, Nov 3</h2>
+    </header>
+    <main>
+        <h1>Table</h1>
+
+        <table class="schedule">
+            <caption>My Classes</caption>
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Number</th>
+                    <th>Ttile</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+
+                </tr>
+                <tr>
+                    <th colspan="6"> Fall 2025</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS</td>
+                    <td rowspan="2" class="num">140</td>
+                    <td>Web Design</td>
+                    <td>11 AM<br>MWF</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>CS</td>
+                    <td>Web Design</td>
+                    <td>12 PM<br>MWF</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>CS</td>
+                    <td>415</td>
+                    <td>Operating System</td>
+                    <td>2 PM<br>MWF</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>CS</td>
+                    <td>401</td>
+                    <td>Web Aplications</td>
+                    <td>3 PM<br>MWF</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="5" id="total-credits">Total Credits</th>
+                    <td headers="total-credits">12</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <p class="question">Why don't we use the border attribute?</p>
+        <p class="answer">that is an outdated look and we are able to make them easer to read and more pretty with diffrent effects.</p>
+        <p class="question">What is the easiest way to color every other row a different color?</p>
+        <p class="answer">You use the subclass of nth-child and then say what child you want to be getting effected. </p>
+    </main>
+
+    <footer>
+        <p>&copy; Taren Parmley</p>
+    </footer>
+    
+</body>
+</html>
