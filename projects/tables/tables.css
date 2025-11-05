@@ -1,0 +1,49 @@
+body{
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin: 5px;
+}
+
+main table {
+    width: 70%;
+    border-spacing: 0;
+    background-color: rgba(95, 158, 160, 0.493);
+    border: 1px inset black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    caption-side: top;
+}
+
+main table thead th{
+    background-color: rgba(135, 145, 252, 0.84);
+    border: 2px solid black;
+    padding: 5px;
+}
+
+main table tbody td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+main table tbody tr:nth-child(even) {
+    background-color: rgba(227, 227, 227, 0.84);
+}
+
+.sidebar {
+    margin: 5px;
+    width: 30%;
+}
+
+footer{
+    text-align: center;
+}
