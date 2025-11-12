@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Taren's Form</h1>
+    </header>
+    
+    <main>
+        <h3>Appy to hang out with Taren</h3>
+
+        <form action="formprocess.html" method="post">
+            <fieldset>
+                <legend>Provide info</legend>
+                
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" name="fullname" id="name" placeholder="Name">
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="form-row">
+                    <label for="name">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+
+                <div class="form-row">
+                    <label for="activity">Activity:</label>
+                    <select name="activity" id="activity">
+                        <option value="Hw">Home Work</option>
+                        <option value="food">Eatting</option>
+                        <option value="gym">Gym</option>
+                        <option value="game">Play Game</option>
+                        <option value="movie">Movie</option>
+                    </select>
+                </div>
+
+                <div class="check-row">
+                    <label><input type="checkbox" id="term">I agree to the term of having fun</label>
+                </div>
+
+                <div class="check-row">
+                    <div class="spacer">Snacks:</div>
+                    <label><input type="radio" name="snacks" value="yes">Yes snacks</label>
+                    <label><input type="radio" name="snacks" value="no">No snacks</label>
+                </div>
+
+                <div class="form-row">
+                    <label for="note">Additional Notes:</label>
+                    <textarea name="note" id="note" placeholder="Something more??"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Lets hang out!">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;Taren Parmley</p>
+    </footer>
+</body>
+</html>
