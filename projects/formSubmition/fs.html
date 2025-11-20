@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fs.css">
+</head>
+<body>
+    <header>
+        <h1>Taren's Fun Form</h1>
+    </header>
+    
+    <main>
+        <h3>Apply to hang out with Taren</h3>
+
+        <div id="message"></div>
+
+        <form action="formprocess.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Provide info</legend>
+                
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" name="fullname" id="name" placeholder="Name">
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="form-row">
+                    <label for="date">Date to hang out:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="form-row">
+                    <label for="name">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+
+                <div class="form-row">
+                    <label for="activity">Activity:</label>
+                    <select name="activity" id="activity">
+                        <option value="Hw">Home Work</option>
+                        <option value="food">Eatting</option>
+                        <option value="gym">Gym</option>
+                        <option value="game">Play Game</option>
+                        <option value="movie">Movie</option>
+                    </select>
+                </div>
+
+                <div class="check-row">
+                    <label for="term"><input type="checkbox" id="term"> I agree to the term of having fun</label>
+
+                </div>
+
+                <div class="check-row">
+                    <div class="snacks">Snacks:</div>
+                    <label><input type="radio" name="snacks" value="yes">Yes snacks</label>
+                    <label><input type="radio" name="snacks" value="no">No snacks</label>
+                </div>
+
+                <div class="form-row">
+                    <label for="note">Additional Notes:</label>
+                    <textarea name="note" id="note" placeholder="Something more??"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Lets hang out!">
+                </div>
+            </fieldset>
+        </form>    
+    </main>
+
+    <footer>
+        <p>&copy;Taren Parmley</p>
+    </footer>
+    <script src="fs.js"></script>
+</body>
+</html>
