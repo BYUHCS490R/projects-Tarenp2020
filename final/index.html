@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="japansesCooking.css" media="screen">
+</head>
+<body>
+    <header>
+        <h1>Cooked In Japan</h1>
+        <nav>
+            <a class= "current" href="index.html">Homepage</a>
+            <a href="okonomiyaki.html">Okonomiyaki</a>
+            <a href="gyudon.html">Gyudon</a>
+            <a href="oden.html">Oden</a>
+            <a href="tempura.html">Tempura</a>
+            <a href="sushi.html">Sushi</a>
+        </nav>
+    </header>
+
+    <main id="homeMain">
+
+        <div id="cardStack">
+            <div class="homeCard">
+                <h2>Okonomiyaki</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="okonomiyaki.html">Read more</a>
+            </div>
+
+            <div class="homeCard">
+                <h2>Gyudon</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="gyudon.html">Read more</a>
+            </div>
+
+            <div class="homeCard">
+                <h2>Oden</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="oden.html">Read more</a>
+            </div>
+
+            <div class="homeCard">
+                <h2>Tempura</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="tempura.html">Read more</a>
+            </div>
+
+            <div class="homeCard">
+                <h2>Sushi</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="sushi.html">Read more</a>
+            </div>
+        </div>
+
+
+        <h3>What Foods should I add next?</h3>
+        <div class="newFoods">
+
+            <form action="formprocess.html" method="post" id="myForm">
+                <fieldset>
+                    <legend>Tell Me About the Food</legend>
+                    
+                    <div class="form-row">
+                        <label for="name">Dish Name:</label>
+                        <input type="text" name="dishName" id="name" placeholder="Ramen">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="orgin">Country of Orgin:</label>
+                        <input type="text" name="orgin" id="orgin" placeholder="Japan">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="ing">Ingrediants Needed:</label>
+                        <textarea name="ing" id="ing" placeholder="2 eggs, 1lb noodels..."></textarea>
+                    </div>           
+
+                
+                    <div class="form-row">
+                        <label for="how">How to cook:</label>
+                        <textarea name="how" id="how" placeholder="first get a bowl..."></textarea>
+                    </div>
+
+                    <div class="check-row">
+                        <label for="term"><input type="checkbox" id="term"> I agree to giving you the rights to post my recipy</label>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="spacer"></div>
+                        <input type="submit" value="Lets get cooking!">
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Taren P.</p>
+
+    </footer>
+
+    <script src="final.js"></script>
+
+
+</body>
+</html>

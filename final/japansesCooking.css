@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    color: #6B9A2E;
+}
+
+nav{
+    display: flex;
+    background: #F4A6C1;
+}
+
+nav a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: #6B9A2E;
+}
+
+.current {
+    color: #6B9A2E;
+    text-decoration: underline;
+}
+
+/*Home page*/
+
+#homeMain {
+    margin: 10px;
+}
+
+#cardStack {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.homeCard {
+    border: solid 2px;
+    width: 30%;
+    min-width: 200px;
+    margin: 5px;
+    background: #f4a6c181;
+    padding-bottom: 15px;
+}
+
+.homeCard a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.homeCard a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
+
+.newFoods{
+    display: flex;
+    justify-content: center;
+}
+
+#myForm{
+    width: 75%;
+}
+
+legend{
+    background: #6B9A2E;
+    color: white;
+    padding: 10px;
+
+}
+
+fieldset{
+    background: #f4a6c181;
+}
+
+
+
+/*Oden page*/
+.odenPage {
+    text-align: left;
+}
+
+table {
+    border: 1px inset black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    caption-side: top;
+}
+
+table th {
+    background-color:#F4A6C1;
+    color: white;
+}
+
+table th, table td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.odenPage .link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.odenPage a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.odenPage a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
+
+/*Okinomiyaki Page*/
+.okinomiyakiPage {
+    text-align: left;
+}
+
+.okinomiyakiPage .link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.okinomiyakiPage a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.okinomiyakiPage a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
+
+/*Gyudon Page*/
+
+.gyudonPage {
+    text-align: left;
+}
+
+.gyudonPage .link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gyudonPage a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.gyudonPage a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
+
+/*Tempura Page*/
+
+/*Sushi Page*/
+
+
+
+
+@media ONLY screen AND (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a{
+        padding: 5px;
+
+    }
+    nav a:hover{
+        background-color: white;
+    }
+    .current {
+        background-color: #6B9A2E;
+        color: white;
+        text-decoration: none;
+    }
+}
