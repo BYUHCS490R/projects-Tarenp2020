@@ -64,7 +64,10 @@ ul {
 .howtocook {
     border: solid 2px;
     background: #f4a6c181;
-
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .howtocook p {
