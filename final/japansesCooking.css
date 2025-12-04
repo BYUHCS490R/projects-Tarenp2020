@@ -5,9 +5,18 @@ body {
     color: #6B9A2E;
 }
 
+header h1 {
+    text-align: center;
+    background-color: white;
+    color: #6B9A2E;
+    padding: 20px;
+    margin: 0;
+}
+
 nav{
     display: flex;
     background: #F4A6C1;
+    padding: 10px;
 }
 
 nav a {
@@ -23,6 +32,33 @@ nav a:hover{
 .current {
     color: #6B9A2E;
     text-decoration: underline;
+}
+
+/*All page*/
+
+h1 {
+    text-align: center;
+    background-color: #6B9A2E;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    flex: 50%;
+}
+
+h3 {
+    margin-left: 10%;
+}
+
+ul {
+    margin-left: 20%;
 }
 
 /*Home page*/
@@ -64,6 +100,10 @@ nav a:hover{
     padding: 4px;
 }
 
+.stores {
+    text-align: left;
+}
+
 .newFoods{
     display: flex;
     justify-content: center;
@@ -84,11 +124,38 @@ fieldset{
     background: #f4a6c181;
 }
 
+.link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.link a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
+
+
 
 
 /*Oden page*/
 .odenPage {
     text-align: left;
+}
+
+.odenPage ul {
+    margin-left: 0;
 }
 
 table {
@@ -138,6 +205,8 @@ table th, table td {
     text-align: left;
 }
 
+
+
 .okinomiyakiPage .link {
     text-align: center;
     margin-top: 15px;
@@ -166,6 +235,10 @@ table th, table td {
     text-align: left;
 }
 
+.gyudonPage ul {
+    margin-left: 0;
+}
+
 .gyudonPage .link {
     text-align: center;
     margin-top: 15px;
@@ -189,13 +262,72 @@ table th, table td {
 }
 
 /*Tempura Page*/
+.tempuraPage {
+    text-align: left;
+}
+
+iframe {
+    margin-top: 15%;
+    margin-right: 5%;
+}
+
+.tempuraPage .link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tempuraPage a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.tempuraPage a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
 
 /*Sushi Page*/
+.sushiPage {
+    text-align: left;
+}
 
+.sushiPage ul {
+    margin-left: 0;
+}
+
+.sushiPage .link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sushiPage a {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: #F4A6C1;
+    color: white;
+    padding: 4px;
+}
+
+.sushiPage a:hover {
+    text-decoration: none;
+    border: solid, #F4A6C1, 1px;
+    background: white;
+    color: #F4A6C1;
+    padding: 4px;
+}
 
 
 
 @media ONLY screen AND (max-width: 700px) {
+
     nav {
         flex-direction: column;
     }
