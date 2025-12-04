@@ -61,6 +61,17 @@ ul {
     margin-left: 20%;
 }
 
+.howtocook {
+    border: solid 2px;
+    background: #f4a6c181;
+
+}
+
+.howtocook p {
+    text-align: left;
+    margin-left: 1%;
+}
+
 /*Home page*/
 
 #homeMain {
